@@ -1,0 +1,39 @@
+body{
+    background: #343a40;
+}
+
+.movieList{
+    float: left;
+    border-radius: 6px;
+    background: darkgray;
+    box-shadow: 2px 2px 8px #ccc;
+    cursor:pointer;
+    width:90%;
+    height: 250px;
+}
+
+.movieList:hover{
+    border: 2px solid #d99f00;
+    box-shadow: 2px 2px 8px #d99f00;
+}
+
+.movieList img{
+    width:170px;
+    height:240px;
+    padding:5px 0 0 5px;
+    margin-left: 50px;
+}
+
+.movieList h3 {
+    display: block;
+    margin: 0 0 0 300px;
+    color:black;
+    position: relative;
+    top: -200px;
+    font-size: 45px;
+}
+
+.movieList h3 span{
+    margin-top: 50px;
+    font-size: 30px;
+}

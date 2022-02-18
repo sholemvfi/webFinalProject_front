@@ -1,0 +1,35 @@
+body{
+    background: #343a40;
+}
+
+.movieGrid{
+    border-radius: 6px;
+    background: rgba(169, 169, 169, 0.699);
+    box-shadow: 2px 2px 8px #ccc;
+    cursor:pointer;
+    width:23%;
+    float:left;
+}
+
+.movieGrid:hover{
+    border: 2px solid #d99f00;
+    box-shadow: 2px 2px 8px #d99f00;
+}
+
+.movieGrid .movieImg{
+    width:170px;
+    height:240px;
+    padding:5px 0 0 5px;
+    margin-left: 20%;
+}
+
+.movieGrid h3{
+    color:black;
+    display:inline-table;
+    font-size: 25px;
+    margin-left: 20%;
+}
+
+.movieGrid span{
+    font-size: 16px;
+}

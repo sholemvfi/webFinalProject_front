@@ -1,0 +1,25 @@
+.add-container{
+    width: 800px;
+    height: 400px;
+    margin:5px auto;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 10px gray;
+    background: lightgray;
+}
+
+.add-container .inp{
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    border: none;
+}
+
+.add-container .label{
+    font-size: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 15px;
+    padding-left: 15px;
+}
