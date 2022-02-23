@@ -51,7 +51,7 @@ export default function ModalInfo(props) {
             <Modal.Footer>
                 <Link to="" className={"btn-warning py-2 btn"} onClick={func}>delete</Link>
                 <Button onClick={props.onHide}>Close</Button>
-                <Link className={"btn-warning py-2 btn"} to="/edit">update</Link>
+                <Link className={"btn-warning py-2 btn"} to={`/edit/${props.id}`}>update</Link>
             </Modal.Footer>
         </Modal>
     );

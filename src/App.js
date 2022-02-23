@@ -12,7 +12,7 @@ function App() {
     <div className="App">
         <Switch>
             <Route path="/addMovie"> <AddingForm/> </Route>
-            <Route path="/edit"> <Edit/> </Route>
+            <Route path="/edit/:id?"> <Edit/> </Route>
             <Route path="/"> <Header/> </Route>
             <Route path="/home"> <Header/> </Route>
         </Switch>
